@@ -17,3 +17,4 @@ ENV PATH="/usr/local/bin:${PATH}"
 RUN useradd -u 1000 -m rtuser
 USER rtuser
 WORKDIR /home/rtuser
+USER root
